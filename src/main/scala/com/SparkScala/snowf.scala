@@ -58,6 +58,6 @@ def main(args : Array[String]): Unit = {
   "and not (weekant > AverageVotes * 1.2 or weekant < AverageVotes * .8)")
   dfOut2.show()
 
-  dfOut.write.csv("C:/Users/Consultant/Documents/SharedUbuntu/Votes_Out")
+  dfOut.write.csv("C:/Users/Consultant/Documents/SharedUbuntu/Votes_Out/")
 }
 }
